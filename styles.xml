@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ScientificCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#00C9A7</item>
+        <item name="colorPrimaryVariant">#00A886</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="android:windowBackground">#0D0D0D</item>
+        <item name="android:statusBarColor">#0D0D0D</item>
+    </style>
+
+    <!-- Base button style -->
+    <style name="BaseButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- Number buttons: dark grey -->
+    <style name="NumberButton" parent="BaseButton">
+        <item name="backgroundTint">#1E1E1E</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Operator buttons: teal accent -->
+    <style name="OperatorButton" parent="BaseButton">
+        <item name="backgroundTint">#00C9A7</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <!-- Equals button: brighter teal -->
+    <style name="EqualsButton" parent="BaseButton">
+        <item name="backgroundTint">#00E5BC</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Function buttons: medium grey (AC, +/-, etc.) -->
+    <style name="FunctionButton" parent="BaseButton">
+        <item name="backgroundTint">#2A2A2A</item>
+        <item name="android:textColor">#00C9A7</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Scientific buttons: subtle dark blue-grey -->
+    <style name="ScientificButton" parent="BaseButton">
+        <item name="backgroundTint">#171F27</item>
+        <item name="android:textColor">#A0D8CF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+</resources>
